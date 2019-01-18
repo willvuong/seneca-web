@@ -1,0 +1,18 @@
+<div class="row">
+    <div class="col-md-12">
+        <h2>Images</h2>
+        <hr />
+    </div>
+        {{#each items}}
+        <tr>
+            <div class="col-md-4">
+                <td>{{this}}</td>
+            </div>
+        </tr>
+        {{else}}
+        <div class="col-md-12 text-center">
+            <strong>No Images Available</strong>
+        </div>
+        {{/each}}
+
+</div>
