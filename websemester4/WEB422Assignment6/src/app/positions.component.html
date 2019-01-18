@@ -1,0 +1,29 @@
+<div class="center">
+  <h2>Positions</h2>
+  <p class="lead">This table shows the job positions, its duties, and salary the position makes.</p>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="table-responsive">
+        <table class="table table-condensed table-hover">
+        <thead>
+        <tr>
+          <td>Position Title</td>
+          <td>Position Description</td>
+          <td>Salary</td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr *ngFor="let p of positions" (click)="routePosition(p._id)">
+          <td>{{p.PositionName}}</td>
+          <td>{{p.PositionDescription}}</td>
+          <td>${{p.PositionBaseSalary | number: '.2'}}</td>
+        </tr>
+        </tbody>
+        </table>
+       </div>
+       
+    </div>
+  </div>
+</div>
