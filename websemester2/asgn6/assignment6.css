@@ -1,0 +1,54 @@
+html{
+    background-color: lightgrey;
+}
+
+body{
+    width: 80%; 
+    margin:auto;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #808080;  
+    background-color:white;
+}
+
+h1{
+    color:white;
+    background-color: red;
+}
+
+h3{
+    background-color:lightgrey;
+}
+
+#bi, #edu, #we, #attach{
+    width:95%;
+    margin:auto;
+    background-color:whitesmoke;
+}
+
+#BasicInformation, #Education, #WorkExperience, #Attachments{
+   width:60%;
+   text-align:right;
+}
+
+#edubox{
+    text-align:left;
+    width:50%;
+    margin:10px 0px 10px 350px;
+}
+
+#buttons{
+    text-align:center;
+}
+
+input[type=submit], input[type=reset]{
+    background-color:red;
+    color:white;
+    padding:5px 10px 5px 10px;
+    border-radius: 10px;
+}
+
+p{
+    display:inline;
+    color:red;
+}

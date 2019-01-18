@@ -1,0 +1,60 @@
+ /* Assignment 05 - Part B */    
+
+/********************************************************************
+
+I declare that my assignment is wholly my own work in accordance with Seneca Academic Policy. No part of this assignment has been copied manually or electronically from any other source (including web sites) except for the information supplied by the WEB222 instructors and / or made available in this assignment for my use.
+
+I also declare that no part of this assignment has been distributed to other students.
+
+Name: William Vuong
+
+Dated: Dec 23, 2017
+
+********************************************************************/
+ body{
+         width: 80%; 
+         margin:auto;
+     }
+
+     h2{
+         color: darkblue;
+         background: #cccccc;
+     }
+
+     #paragraph2{
+         font-family:'Comic Sans MS', 'Comic Sans', 'cursive';
+         font-size:20pt;
+     }
+
+     span.on{
+         color: #5cb85c;
+         font-weight: bold;
+         text-decoration: underline;
+     }
+
+     div #section2 table {
+         background-image:url(https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX23025384.jpg);
+         color:#2f4f4f;
+     }
+
+     thead, tfoot{
+         background-color: rgba(255, 255, 0, 0.6);
+         font-style:italic;
+     }
+
+     p:hover{
+         color:blue;
+     }
+     
+     ul{
+         list-style-type:square
+     }
+
+     ol{
+         list-style-type:lower-alpha;
+     }
+
+     footer{
+         text-align:center;
+     }
+

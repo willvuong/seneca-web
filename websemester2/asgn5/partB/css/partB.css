@@ -1,0 +1,93 @@
+ /* Assignment 05 - Part B */
+
+/********************************************************************
+
+I declare that my assignment is wholly my own work in accordance with Seneca Academic Policy. No part of this assignment has been copied manually or electronically from any other source (including web sites) except for the information supplied by the WEB222 instructors and / or made available in this assignment for my use.
+
+I also declare that no part of this assignment has been distributed to other students.
+
+Name: William Vuong
+
+Dated: Dec 23, 2017
+
+********************************************************************/
+
+ /* task 1 */
+html{
+  background-image:url('../images/canada_theme.jpg');
+}
+
+h1 {
+  text-align:center;
+}
+
+ /* task 2 */
+body { 
+  width: 85%;
+  margin: 0 auto;
+}
+ 
+ /* task 3 */
+nav {
+  width: 250px;
+  float: left;
+}
+ 
+ /* task 4 */
+.main {
+  width: 60%; /* width: 600px; */
+  float: left;
+}
+
+footer {
+  clear: both;
+}
+
+ /* task 5 */
+#CA img { 
+  width: 60px; 
+}
+#CA {
+  font-size: 30px;
+  color: red;
+  position: fixed; right:10px; top:10px;
+  text-shadow: 2px 0px 0px;
+}
+ 
+ /* task 6 */
+.flag {
+  width: 100px;
+}
+
+.province {
+  float: left;
+  width:  220px;
+  height: 200px;
+}
+ 
+ /* task 7 */
+.province img { float: left; margin: 5px;}
+ 
+ /* task 8 */
+ul {
+list-style-type: none;
+}
+
+html{
+  text-shadow: 1px 0px 0px;
+}
+
+h1 {
+text-shadow: 2px 0px 0px;
+}
+
+.province {
+  border-style: solid;
+  border-radius: 20px;
+  margin: auto;
+  padding: 5px 5px;
+  color: black;
+}
+
+
+
